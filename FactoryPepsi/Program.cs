@@ -82,9 +82,6 @@ namespace FactoryCocaCola
                 var users = new Users();
                 try
                 {
-
-
-
                     Console.WriteLine("Введите имя");
                     users.NameUser = Convert.ToString(Console.ReadLine());
                     Console.WriteLine("Введите номер");
